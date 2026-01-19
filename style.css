@@ -411,7 +411,6 @@ margin-bottom: 40px;
     gap: 32px;
     justify-content: center;
     align-items: center;
-    /* margin: 120px; */
 }
 
 .footer-logo{
@@ -421,14 +420,16 @@ margin-bottom: 40px;
 .footer-media{
     list-style: none;
     display: flex;
-    gap: 40px;
-    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-media li{
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 8px;
+    margin: 0 20px;
 }
 
 .media-name{
@@ -475,7 +476,7 @@ margin-bottom: 40px;
   }
 
   .banner-area{
-    background-size: 220% auto;
+    background-size: 180% auto;
     background-position: center 46%;
   }
   .podcast-logo{
@@ -508,11 +509,15 @@ margin-bottom: 40px;
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
     }
-
+     .choose-section{
+        padding: 30px 20px;
+     }
     .choose-boxes{
         grid-template-columns: repeat(1, 1fr);
     }
-
+    .choose-title{
+        font-size: 2rem;
+    }
     .box-content{
         width: 100%;
     }
@@ -555,11 +560,20 @@ margin-bottom: 40px;
     }
     .footer-container{
         padding: 40px 20px;
-        background-position: center;
+        background-size: 160% auto;
+        background-position: center 35%;
+    }
+    .footer-content{
+        gap: 20px;
     }
     .footer-media{
         flex-wrap: wrap;
         justify-content: center;
+        max-width:70% ;
+        gap: 5px;
+    }
+    .footer-media{
+
     }
 }
 
