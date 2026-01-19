@@ -12,15 +12,26 @@
   background-color: #1a0b2e;
 }
 
+
+.bg-1{
+    background-color: #230e3d;
+}
+
 /* color */
   .white-01{
     color:#ffff;
   }
-
+.white-02{
+    color: #ffffff;
+    font-size: 1rem;
+    opacity: 80%;
+    line-height: 20px;
+}
 /* Header */
 
 .header-section,
-.banner-box{
+.banner-box,
+.about-section{
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
@@ -156,13 +167,112 @@
     color: #00ff88;
 }
 
+/* About section */
+
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+.about-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.about-description{
+    margin-bottom: 30px;
+}
+.dash{
+    border-bottom: 2px solid #fff;
+    opacity: 20%;
+}
+
+.about-number{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.number-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #00ff88;
+    margin-bottom: 16px;
+}
+.number-des{
+    text-transform: uppercase;
+}
+
+/* Choose section */
+
+.choose-section{
+    width: 100%;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #230e3d;
+}
+
+.choose-container{
+    max-width: 1200px;
+    width: 100%;
+}
+
+.choose-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+/* grid */
+
+.choose-boxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(225px, auto);
+    gap: 30px;
+}
+.box-content{
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+    /* box-shadow: 0 20px 40px rgba(0,0,0,0.35); */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 16px;
+}
+.box-content img{
+    height: 50px;
+    width: 50px;
+}
+.box-title{
+    font-size: 1.25rem;
+}
+.box-description{
+    line-height: 2;
+}
+.box-large{
+    grid-row: span 2;
+}
+
+.box-wide{
+    grid-column: span 2;
+}
+
 
 
 /* Responsive for mobile */
 
 @media screen and (max-width:576px) {
     .header-section,
-    .banner-box{
+    .banner-box,
+    .about-section{
         max-width: 90%;
     }
   .banner-section {
@@ -191,10 +301,27 @@
         cursor: pointer;
     }
 
+
+    .banner-section{
+        margin-bottom: 40px;
+    }
+
+
     .podcast-logo{
         width: 200px;
     }
     .mic{
         width: 80px;
+    }
+    .about-container{
+     margin: 40px auto;
+    }
+    .about-number{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .choose-boxes{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
