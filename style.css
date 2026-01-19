@@ -469,8 +469,9 @@ margin-bottom: 40px;
     }
 
    .banner-section {
-     padding: 80px 16px;
-     min-height: 100vh;
+     padding: 80px 16px 20px 16px;
+     /* fix banner bg in mobile responsive after change 100vh to 100%😂randomly changed */
+     min-height: 100%; 
   }
 
   .banner-area{
