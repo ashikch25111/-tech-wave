@@ -331,10 +331,6 @@
     /* padding-bottom: 20px; */
 }
 
-.episode-box{
-
-}
-
 .episode-title,
 .host-title{
 font-size: 3rem;
@@ -355,8 +351,16 @@ margin-bottom: 40px;
  flex-direction: column;
  border-radius: 24px;
  background: rgba(37, 13, 68, 1);
-
+ transition: 
+        background 0.3s ease,
+        color 0.3s ease,
+        transform 0.2s ease;    
 }
+
+.epiosode-card:hover{
+    transform: translateY(-4px);
+}
+
 .iframe{
     border-radius: 24px 24px 0 0;
 }
