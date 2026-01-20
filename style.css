@@ -19,7 +19,7 @@
 
 /* color */
   .white-01{
-    color:#ffff;
+    color:#ffffff;
   }
 .white-02{
     color: #ffffff;
@@ -78,7 +78,7 @@
     font-weight: 500;
 }
 
-.hambuger{
+.hamburger{
     width: 18px;
     height: 14px;
     display: none;
@@ -345,7 +345,7 @@ margin-bottom: 40px;
     gap: 30px;
 }
 
-.epiosode-card{
+.episode-card{
  max-width: 380px;
  display: flex;
  flex-direction: column;
@@ -357,7 +357,7 @@ margin-bottom: 40px;
         transform 0.2s ease;    
 }
 
-.epiosode-card:hover{
+.episode-card:hover{
     transform: translateY(-4px);
 }
 
@@ -502,7 +502,7 @@ margin-bottom: 40px;
         display: none;
         
     }
-    .hambuger{
+    .hamburger{
         display: block;
         cursor: pointer;
     }
@@ -578,13 +578,13 @@ margin-bottom: 40px;
     .host-title{
         font-size: 2rem;
     }
-    .epiosode-card{
+    .episode-card{
         max-width: 100%;
         width: 100%;
         border-radius: 20px;
     }
 
-    .epiosode-card iframe{
+    .episode-card iframe{
         width: 100%;
     }
 
