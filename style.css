@@ -435,9 +435,13 @@ margin-bottom: 40px;
     align-items: center;
 }
 
-.host-media li a{
+.media-icon{
     text-decoration: none;
     cursor: pointer;
+    opacity: 70%;
+}
+.media-icon:hover{
+    opacity: 100%;
 }
 
 /* Footer style */
