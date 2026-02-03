@@ -78,6 +78,16 @@
     font-weight: 500;
 }
 
+.nav-item:hover{
+    background: linear-gradient(
+    90deg,
+    #ff4fd8,
+    #7c3aed,
+    #facc15);
+      -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
 .hamburger{
     width: 18px;
     height: 14px;
