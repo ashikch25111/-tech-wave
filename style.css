@@ -492,6 +492,24 @@ margin-bottom: 40px;
     color: #ffffff;
 }
 
+#logo:hover{
+    background: linear-gradient(
+    90deg,
+    #ff4fd8,
+    #7c3aed,
+    #facc15);
+      -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.media-name:hover{
+    background: linear-gradient(
+    90deg,
+    #ff4fd8,
+    #7c3aed,
+    #facc15);
+      -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
 
 
 
